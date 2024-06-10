@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Neo Sans Font', sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    background-color: #DBDBDB;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    padding-right: 60px;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+#language-switcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #AA1803;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-left {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-right {
+    text-align: right;
+    flex: 1;
+    
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 4px;
+    color: #AA1803;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #AA1803;
+    text-align: center;
+}
+
+.contact ul,
+.languages ul {
+    list-style: none;
+    padding: 0;
+    margin: 4px;
+}
+
+.contact li,
+.languages li {
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: #AA1803;
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.languages {
+    margin-top: 20px;
+    color: #AA1803;
+}
+
+
+.contact i {
+    position: relative;
+    margin-right: 2px;
+    color: #000000;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-size: 1.2em;
+    color: #BD613C;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    }
+    .header-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .languages {
+        margin-top: 10px;
+    }
+    .contact ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact li {
+        margin: 5px 10px;
+    }
+    .languages ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .languages li {
+        margin: 5px 10px;
+    }
+}
