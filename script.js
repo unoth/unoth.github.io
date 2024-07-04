@@ -15,9 +15,9 @@ function translateToEnglish() {
     document.querySelector('h1').textContent = 'Android developer';
     document.querySelector('h2').textContent = 'Kristina Dedova';
     document.querySelector('#about h3').textContent = 'ABOUT ME';
-    document.querySelector('#about p:nth-of-type(1)').textContent = "Hi there! I'm a beginner Android developer with a technical background. Previously, I worked in diagnostics and technical maintenance of laboratory equipment for giants like Sibur, Rosneft, and Gazprom. Contracts, technical specifications, negotiations — it's all my business!";
-    document.querySelector('#about p:nth-of-type(2)').textContent = "Now I've decided to switch from the oil industry to IT because I've always been interested in digital technologies, and I've realized that this is truly my calling. After training in Android development, I'm ready to dive into the world of programming.";
-    document.querySelector('#about p:nth-of-type(3)').textContent = "My superpowers include quick learning, decision-making, and effective communication without unnecessary epic dramas. I'm confident that I can contribute to any project and fit in perfectly with a young and dynamic team.";
+    document.querySelector('#about p:nth-of-type(1)').textContent = "Hi there! I'm an Android developer with a technical background. Previously, I worked in diagnostics and technical maintenance of laboratory equipment for giants like Sibur, Rosneft, and Gazprom. Contracts, technical specifications, negotiations — it's all my business!";
+    document.querySelector('#about p:nth-of-type(2)').textContent = "Now I've decided to switch from the oil industry to IT because I've always been passionate about digital technologies, and I've realized that this is truly my calling. After the Android development training, I plunged into the world of programming.";
+    document.querySelector('#about p:nth-of-type(3)').textContent = "My superpowers include quick learning, decision-making, and effective communication without unnecessary epic dramas. I'm confident I can contribute to any project and be a great addition to a young and dynamic team.";
     
     document.querySelector('#skills h3').textContent = 'SKILLS';
     document.querySelector('#projects h3').textContent = 'PROJECTS';
@@ -34,8 +34,8 @@ function translateToRussian() {
     document.querySelector('h1').textContent = 'Android developer';
     document.querySelector('h2').textContent = 'Дедова Кристина';
     document.querySelector('#about h3').textContent = 'О СЕБЕ';
-    document.querySelector('#about p:nth-of-type(1)').textContent = "Привет! Я начинающая Android-разработчица с техническим образованием. Раньше я занималась диагностикой и техническим обслуживанием лабораторного оборудования для таких гигантов, как Сибур, Роснефть и Газпром. Договора, технические задания, переговоры — it's all my business!";
-    document.querySelector('#about p:nth-of-type(2)').textContent = "Теперь я решила поменять нефтянку на IT, потому что мне всегда были интересны цифровые технологии, и я поняла, что это действительно моё. После обучения Android-разработке готова погрузиться в мир программирования.";
+    document.querySelector('#about p:nth-of-type(1)').textContent = "Привет! Я Android-разработчица с техническим образованием. Раньше я занималась диагностикой и техническим обслуживанием лабораторного оборудования для таких гигантов, как Сибур, Роснефть и Газпром. Договора, технические задания, переговоры — it's all my business!";
+    document.querySelector('#about p:nth-of-type(2)').textContent = "Теперь я решила поменять нефтянку на IT, потому что мне всегда были интересны цифровые технологии, и я поняла, что это действительно моё. После обучения Android-разработке погрузилась в мир программирования.";
     document.querySelector('#about p:nth-of-type(3)').textContent = "Мои суперсилы: быстрая обучаемость, принятие решений и коммуникабельность без лишних эпических драм. Уверена, что смогу внести свой вклад в любой проект и отлично впишусь в молодой и динамичный коллектив.";
     
     document.querySelector('#skills h3').textContent = 'УМЕНИЯ';
